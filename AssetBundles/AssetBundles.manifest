@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 2855205336
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ziyuan/ziyuan_01
+      Dependencies: {}
+    Info_1:
+      Name: test/fangkuai
+      Dependencies:
+        Dependency_0: ziyuan/ziyuan_01

@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 18094067
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cc8ba391e9b538d9c087939a3a5f83e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b1f96faa025328b86fadc32f7a7d76b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/ziyuan1/texture/yiyanghuatanLightingMap.tga
+- Assets/Resources/ziyuan1/texture/shendanyuan01_d.tga
+- Assets/Resources/ziyuan1/texture/tiejiataiLightingMap.tga
+- Assets/Resources/ziyuan1/texture/tiexie01_d 1.png
+- Assets/Resources/ziyuan1/texture/pingsai_24 - Default_Normal.png
+- Assets/Resources/ziyuan1/texture/tiejiatai01_24 - Default_BaseColor.png
+- Assets/Resources/ziyuan1/Models/UI_box03.FBX
+- Assets/Resources/ziyuan1/Models/UI_box03_2.FBX
+- Assets/Resources/ziyuan1/texture/tiexie01_d.png
+- Assets/Resources/ziyuan1/Models/UI_box03_1.FBX
+- Assets/Resources/ziyuan1/texture/shihuishui01_d.TGA
+- Assets/Resources/ziyuan1/texture/box_19 - Default_Normal.png
+- Assets/Resources/ziyuan1/texture/yiyanghuatan_24 - Default_Metallic.png
+- Assets/Resources/ziyuan1/Models/UI_quan01.FBX
+- Assets/Resources/ziyuan1/Material/Test3.mat
+- Assets/Resources/ziyuan1/Models/UI_box03_3.FBX
+- Assets/Resources/ziyuan1/texture/chuanliandianlutu_d.TGA
+- Assets/Resources/ziyuan1/texture/pingsai_24 - Default_BaseColor.png
+- Assets/Resources/ziyuan1/texture/tiejiatai01_24 - Default_Roughness.png
+- Assets/Resources/ziyuan1/texture/yiyanghuatan_24 - Default_Normal.png
+- Assets/Resources/ziyuan1/texture/Test-paper-color.png
+- Assets/Resources/ziyuan1/Material/Test2.mat
+- Assets/Resources/ziyuan1/Models/UI_box05.FBX
+- Assets/Resources/ziyuan1/texture/tiejiatai01_24 - Default_Normal.png
+- Assets/Resources/ziyuan1/Models/UI_box01.FBX
+- Assets/Resources/ziyuan1/Material/Test1.mat
+- Assets/Resources/ziyuan1/texture/bingliandianlutu_d.TGA
+- Assets/Resources/ziyuan1/texture/yiyanghuatan_24 - Default_BaseColor.png
+- Assets/Resources/ziyuan1/texture/Marker.png
+- Assets/Resources/ziyuan1/Models/UI_box06.FBX
+- Assets/Resources/ziyuan1/texture/earth.jpg
+- Assets/Resources/ziyuan1/Models/UI_box04.FBX
+- Assets/Resources/ziyuan1/texture/tiejiatai01_24 - Default_Metallic.png
+- Assets/Resources/ziyuan1/texture/colour_d_512.TGA
+- Assets/Resources/ziyuan1/texture/tiexie01_a.png
+- Assets/Resources/ziyuan1/texture/box_19 - Default_BaseColor.png
+- Assets/Resources/ziyuan1/Material/Diqiu.mat
+- Assets/Resources/ziyuan1/Models/UI_box02.FBX
+Dependencies: []
