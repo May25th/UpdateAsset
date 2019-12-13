@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.IO;
 
 public class LoadFromLocal : MonoBehaviour
 {
@@ -49,6 +50,28 @@ public class LoadFromLocal : MonoBehaviour
         Instantiate(go);
     }
 
+    private IEnumerator LoadAsset(string asset_str)
+    {
+        if (!string.IsNullOrEmpty(asset_str))
+        {
+            if (!File.Exists(LocalURL(asset_str)))
+            {
+                //没有的话走网络
+                yield return WWWLoad(asset_str);
+            }
+            else
+            {
+                //有网络的话本地加载
+                yield return WWWLoad(asset_str);
+            }
+        }
+    }
+
+    private string LocalURL(string url)
+    {
+        return url;
+    }
+
     //使用这种方式加载，它会先把资源包存在本地的cache中
     //然后在从cache中加载ab包
     IEnumerator WWWLoad(string path)
@@ -66,6 +89,7 @@ public class LoadFromLocal : MonoBehaviour
             yield break;
         }
         AssetBundle ab = www.assetBundle;
+        File.WriteAllBytes(path, www.bytes);
         //获取目标对象
         GameObject go = ab.LoadAsset<GameObject>("Fangkuai");
         //实例化对象
